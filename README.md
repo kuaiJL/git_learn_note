@@ -30,3 +30,6 @@ ssh: connect to host github.com port 22: Connection timed out
 fatal: Could not read from remote repository.
 22：端口不能用，改成443.
 如上参考：https://blog.csdn.net/nightwishh/article/details/99647545   ，  https://blog.csdn.net/u013778905/article/details/83501204  ，https://www.jianshu.com/p/e786a8f7f022
+
+#拉去远程仓库指定分支
+git clone -b dev @github.......
