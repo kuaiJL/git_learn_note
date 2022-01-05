@@ -33,3 +33,7 @@ fatal: Could not read from remote repository.
 
 #拉去远程仓库指定分支
 git clone -b dev @github.......
+
+新建分支并切换到指定分支
+
+git checkout -b 本地分支名 origin/远程分支名
